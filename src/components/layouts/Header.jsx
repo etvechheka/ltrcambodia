@@ -8,7 +8,7 @@ function Header() {
     return (
         <>
             <header>
-                <div className="inner-header">
+                <div className="inner-header flex-navigation container">
                     <div className="brand-logo">
                         <a href="#">
                             <img src={Logo} alt="" />
@@ -23,6 +23,9 @@ function Header() {
                              <li>Support</li>
                         </ul>
                     </nav>
+                    <div className="right-button">
+                        <a href="#">Get Quote</a>
+                    </div>
                 </div>
             </header>
         </>

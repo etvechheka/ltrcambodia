@@ -1,18 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&display=swap');
 
-
-header .brand-logo img{
+/* 
+-------HEADER-------
+*/
+header .brand-logo img {
     max-width: 120px;
 }
+
 .navbar {
-display: flex;
+    display: flex;
+    margin-left: auto;
 }
+
 .main-menu .menu-list {
     list-style: none;
     padding: 0;
     margin: 0;
 }
+
 .menu-list li {
     float: left;
     padding: 10px 20px;
     text-align: center;
+    color: white;
+    font-size: 16px;
+    font-family: "Outfit", sans-serif;
+}
+
+.flex-navigation {
+    display: flex;
+    align-items: center;
+
+}
+
+.right-button a {
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: transparent;
+    border: 1px solid #FFFFFF;
+    color: white;
+    border-radius: 10px;
+    display: block;
+    font-family: "Outfit", sans-serif;
+}
+.right-button a:hover {
+    background-color: #434 !important;
+}
+/* END HEADER */
+.container {
+    width: 90%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.width-full {
+    width:100%;
+
+}
+.banner-ltr {
+    background-image: url('../../assets/images/banner.png');
+    height: 80vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.section-slide {
+    width: 42rem;
+    max-height: 400px;
+    height: 400px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    float:right;
 }
