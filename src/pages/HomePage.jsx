@@ -25,7 +25,7 @@ const sampleProducts = [
     {
         id: 2,
         name: "Utensils & Household",
-        image: new URL('../assets/images/utensils.avif', import.meta.url).href,
+        image: new URL('../assets/images/utensils.webp', import.meta.url).href,
         price: 199,
         description: "Track fitness, sleep, and notifications.",
     },
