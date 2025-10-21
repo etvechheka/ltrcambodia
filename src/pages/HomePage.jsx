@@ -13,6 +13,10 @@ import Icon_1 from '../assets/images/procurement.png'
 import ProductGrid from '../components/ProductGrid';
 import { ServiceLayout } from '../components/Service';
 import { Overview } from '../components/Overview';
+import { ChooseUs } from '../components/ChooseUs';
+import { Footer } from '../components/Layout/Footer';
+import { RecommendProduct } from '../components/ProductGrid/recommend';
+
 
 const sampleProducts = [
     {
@@ -78,10 +82,12 @@ const HomePage = () => {
                     </SwiperSlide>
                 </Swiper>
                 <ServiceLayout />
-                
                 <ProductGrid products={sampleProducts} onSelect={handleSelect} />
                 <Overview />
+                <ChooseUs/>
+                <RecommendProduct/>
             </main>
+            <Footer/>
         </>
     )
 }
