@@ -21,7 +21,7 @@ function Header() {
                         </ul>
                     </nav>
                     <div className="right-button">
-                        <a href="#">Sign Up</a>
+                        <a href="login">Sign Up</a>
                     </div>
                 </MainNavigation>
 

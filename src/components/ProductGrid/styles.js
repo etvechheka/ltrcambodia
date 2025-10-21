@@ -29,6 +29,9 @@ export const ProductHeading = styled.div`
   align-items:center;
 `;
 
+export const RecommendHeading = styled(ProductHeading)`
+  display: block !important;
+`;
 export const ProductHeadTitle = styled.h1`
   font-size: 46px;
   font-weight: bold;
@@ -37,6 +40,14 @@ export const ProductHeadTitle = styled.h1`
   padding-top: 0;
 `;
 
+export const RecommendTitle = styled(ProductHeadTitle)`
+  text-align: left;
+`;
+
+export const RecommendProductImage = styled.img`
+  width: 100%;
+  max-width: 100%;
+`;
 export const GridContainer = styled.div`
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -74,6 +85,21 @@ export const ProductCard = styled.div`
       background: linear-gradient(0deg, rgba(28, 26, 26, 1) 0%, rgba(36, 36, 36, 0) 100%);
   }
 `;
+
+export const ProductRecommendCard = styled.div`
+    position: relative;
+    border-radius: 15px;
+    
+`;
+
+export const RecommendProductTitle = styled.h2`
+   font-size: 16px;
+   font-weight: 500;
+   color: rgba(155, 8, 11, 1);
+   font-family: 'Outfit', sans-serif;
+   text-align: center;
+`;
+
 export const ProductImage = styled.img`
   width: 100%;
   height: 500px;
@@ -81,7 +107,9 @@ export const ProductImage = styled.img`
   background-color: #f2f2f2;
   transition: transform 0.3s ease-out;
 `;
-
+export const InnerRecommend = styled.div`
+  padding: 15px;
+`;
 export const ProductColumn = styled.div`
   display: flex;
   flex-direction: column;
